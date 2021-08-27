@@ -57,7 +57,7 @@ this plot shows that th skilled players tend to do more pushups than do line pla
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ```{r}
-favstats(pushups~position,data=mydata)
+favstats(pushups ~position,data=mydata)
 ```
 
 The skilled player have done more push ups then the line players.The skilled players can do 47.5 pushups on average. The line players can do only 14.5 on average.
